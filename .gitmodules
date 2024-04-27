@@ -1,0 +1,3 @@
+[submodule "Nova/vendor/spdlog"]
+	path = Nova/vendor/spdlog
+	url = https://github.com/gabime/spdlog
