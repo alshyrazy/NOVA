@@ -1,0 +1,7 @@
+﻿  Application.cpp
+D:\Dev\Nova\Nova\src\Nova\Log.h(18,41): warning C4251: 'Nova::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Nova::Log'
+D:\Dev\Nova\Nova\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\Dev\Nova\Nova\src\Nova\Log.h(19,41): warning C4251: 'Nova::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Nova::Log'
+D:\Dev\Nova\Nova\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+     Creating library ..\bin\Debug-x64\Nova\Nova.lib and object ..\bin\Debug-x64\Nova\Nova.exp
+  Nova.vcxproj -> D:\Dev\Nova\bin\Debug-x64\Nova\Nova.dll

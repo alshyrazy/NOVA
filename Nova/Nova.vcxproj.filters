@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Nova">
+      <UniqueIdentifier>{D9BC897C-C5F3-8A0D-6EE0-70105AF6060F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Nova.h" />
+    <ClInclude Include="src\Nova\Application.h">
+      <Filter>Nova</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\EntryPoint.h">
+      <Filter>Nova</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\Log.h">
+      <Filter>Nova</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\core.h">
+      <Filter>Nova</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\Events\Event.h" />
+    <ClInclude Include="src\Nova\Events\KeyEvent.h" />
+    <ClInclude Include="src\Nova\Events\MouseEvent.h" />
+    <ClInclude Include="src\Nova\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\nvpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Nova\Application.cpp">
+      <Filter>Nova</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nova\Log.cpp">
+      <Filter>Nova</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nvpch.cpp" />
+  </ItemGroup>
+</Project>
